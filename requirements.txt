@@ -1,0 +1,10 @@
+# Versi scikit-learn harus sama dengan saat artifact disimpan agar models/house_price_pipeline.joblib bisa dimuat.
+scikit-learn==1.9.1
+lightgbm==4.7.0
+pandas==3.0.5
+numpy>=2.0
+matplotlib>=3.8
+seaborn>=0.13
+joblib>=1.4
+streamlit>=1.40
+jupyter
