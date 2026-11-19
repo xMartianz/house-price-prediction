@@ -48,7 +48,7 @@ house-price-prediction/
 ## Cara menjalankan
 
 ```bash
-git clone https://github.com/<username>/house-price-prediction.git
+git clone https://github.com/xMartianz/house-price-prediction.git
 cd house-price-prediction
 python -m venv .venv
 source .venv/bin/activate        # Windows: .venv\Scripts\activate
