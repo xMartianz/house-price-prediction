@@ -1,5 +1,7 @@
 # 🏠 House Price Prediction — Ames, Iowa
 
+[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://house-price-xmartianz.streamlit.app/)
+
 Membangun dan membandingkan tiga model regresi, yaitu **Lasso Regression**, **Random Forest**, dan **LightGBM**, untuk memprediksi harga jual rumah, lalu mengevaluasi performanya dengan **R²** dan **RMSE**. Pipeline preprocessing dan model terbaik disimpan sebagai satu artifact dan dipakai oleh demo interaktif.
 
 ![Perbandingan model](images/model_comparison.png)
@@ -111,6 +113,8 @@ Lasso unggul di kedua skema evaluasi. RMSE-nya sekitar 11% dari median harga, wa
 Penentu harga terkuat adalah total luas × kualitas (`QualxSF`), total luas, dan lokasi (Crawford, Stone Brook naik; zona komersial turun sekitar 25%). Umur rumah dan penjualan *abnormal* menurunkan harga.
 
 ## Demo interaktif
+
+**Coba langsung:** https://house-price-xmartianz.streamlit.app/ (kalau app sedang "tertidur", klik tombol untuk membangunkannya, sekitar 30 detik).
 
 `app.py` memuat **satu artifact** (`models/house_price_pipeline.joblib`) yang berisi:
 
